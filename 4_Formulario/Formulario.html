@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulario</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <a name="formulario"></a>
+        <h1>Formularios</h1>
+        <form action="mailto:jludlh@educa.madrid.org?subject=tarea_de_marcas" method="post" enctype="text/plain">
+            <fieldset>
+                <legend>Datos Personales</legend>
+                <p>
+                    <label for="Nombre"> Nombre:</label><span style="color: #eb2525;">*</span><br>
+                    <input type="text" name="Nombre" size="20" id="Nombre" required>
+                </p>
+                <p>
+                    <label for="Edad">Edad:</label><br>
+                    <input type="number" name="Edad" size="20" id="Edad">
+                </p>
+                <p>
+                    <label for="Email">Email:</label><br>
+                    <input type="email" name="Email" size="20" id="Email">
+                </p>
+                <p>
+                    <label for="Curso">Curso:</label><br>
+                    <select name="Curso" id="Curso">
+                        <option value="1">HTML Básico</option>
+                        <option value="2">HTML Intermedio</option>
+                        <option value="3">HTML Avanzado</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="Comentarios">Comentarios:</label><br>
+                    <textarea name="Comentarios" rows="4" cols="50" id="Comentarios"></textarea>
+                </p>
+                    <input type="submit" value="Enviar">
+            </fieldset>
+        </form><br>
+        <a href="../Index.html#indice">Volver al índice</a>
+    </body>
+</html>
